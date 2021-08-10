@@ -1,4 +1,5 @@
-const location1 = Math.floor(Math.random()*5);
+const randomLocation = Math.floor(Math.random()*5);
+const location1 = randomLocation;
 const location2 = location1 + 1;
 const location3 = location1 + 2;
 let guess;
